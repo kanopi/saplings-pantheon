@@ -1,0 +1,6 @@
+name: 'Saplings - Pantheon'
+description: 'Simple configuration for hosting on Pantheon.'
+type: 'Site'
+install:
+  - pantheon_advanced_page_cache
+  - redis

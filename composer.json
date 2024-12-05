@@ -1,0 +1,17 @@
+{
+    "name": "kanopi/saplings-pantheon",
+    "description": "Simple configuration for hosting on Pantheon.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jim Birch",
+            "homepage": "https://kanopi.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/pantheon_advanced_page_cache": "^2.0",
+        "drupal/redis": "^1.5"
+    }
+}
